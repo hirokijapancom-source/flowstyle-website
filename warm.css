@@ -8,3 +8,14 @@ body.warm{margin:0;background:#fcfaf7;color:#39352f;font-family:'Noto Sans JP',s
 .hero-desc .hero-copy-line{display:block;margin-bottom:1.05em;}
 .hero-closing{margin:0 0 1.5rem;font-weight:600;line-height:1.9;}
 @media(max-width:700px){.hero-text h1{font-size:clamp(1.7rem,7vw,2.5rem);line-height:1.55;}.hero-desc .hero-copy-line{margin-bottom:.9em;}}
+
+/* 2026-11-27: photo-led, warm and accessible homepage refinement */
+.warm-hero{background:linear-gradient(120deg,#faf7f3 0%,#f5f0ea 56%,#f1e9e2 100%)}
+.hero-visual:before{background:#e3d9ce;border-radius:180px 180px 8px 8px}
+.hero-visual img{border-radius:180px 180px 8px 8px;object-fit:cover;object-position:48% center;box-shadow:0 18px 48px rgba(76,60,45,.08)}
+.visual-tag{background:#fffdf9;box-shadow:0 10px 26px rgba(72,53,42,.09);font-family:'Noto Serif JP',serif;font-style:normal;letter-spacing:.09em;color:#6c796e}
+.hero-text h1{letter-spacing:.025em}
+.nav-book,.primary-link{border-radius:4px}
+.warm-card{border-radius:8px;overflow:hidden}
+.warm-card:focus-visible,.nav-bar a:focus-visible,.primary-link:focus-visible{outline:3px solid #637c6b;outline-offset:4px}
+@media(max-width:650px){.hero-visual img{object-position:50% 45%}.hero-visual:before,.hero-visual img{border-radius:120px 120px 6px 6px}.visual-tag{font-size:12px;padding:9px 16px}}
